@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+.intro {
+    &__heading {
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    &__text {
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+
+        &--button {
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+
+}
+
+.menu {
+    &__heading {
+        font-family: 'Roboto Flex', sans-serif;
+    }
+
+    &__text {
+        font-family: 'Roboto Flex', sans-serif;
+    }
+}
+
+.header__locbar {
+    &--searchbar::placeholder {
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+        opacity: 1;
+    }
+}
+
+.howto,
+.restaurant {
+
+    &__title {
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        margin: 20px 0px 20px 20px;
+    }
+
+    &__card {
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 600;
+
+        &-marker {
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+}
+
+.content {
+
+    &__title {
+        margin: 0px;
+        font-size: 20px;
+
+    }
+
+    &__text {
+        font-weight: 100;
+        margin: 0px;
+    }
+}
+
+.footer {
+
+
+    &__title {
+        font-family: 'shrikhand', sans-serif;
+        color: white;
+        font-size: 1.2rem;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    &__links__text {
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 300;
+
+        &--important {
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 700;
+        }
+    }
+}
+
+.menu {
+
+    &__title {
+        font-family: 'shrikhand', sans-serif;
+        font-size: 28px;
+
+    }
+
+    &__card {
+        &__content {
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 300;
+
+        }
+
+        &__text {
+            h2 {
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+
+        &__price {
+            font-weight: 600;
+        }
+    }
+
+    &__button {
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+}
+
+.load{
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+
+        &_text{
+        color: #737373;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 200px;
+        }
+}
